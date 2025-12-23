@@ -1,0 +1,8 @@
+name = "ronan-m"
+type = "javascript"
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+workers_dev = true
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
